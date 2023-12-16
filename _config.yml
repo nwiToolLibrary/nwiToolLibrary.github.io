@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Northwest Indiana Tool Library
+email: nwitoollibrary@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Our mission is to build a community dedicated to sharing tools & skills with one another.
+  We aim to provide equitable access to tools, equipment, and knowledge, thereby
+  encouraging and facilitating sharing, learning, and creating as a community.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://www.nwitoollibrary.org" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+github_username: nwiToolLibrary
 
 # Build settings
 theme: minima
