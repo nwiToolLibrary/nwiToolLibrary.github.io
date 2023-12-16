@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+**Mission Statement:** To build a community dedicated to sharing tools & skills with one another.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+**Aim:** Our work is to provide equitable access to tools, equipment, and knowledge, thereby encouraging and facilitating sharing, learning, and creating as a community.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Contact us at [nwitoollibrary@gmail.com][mailto:nwitoollibrary@gmail.com]
 
-
-[jekyll-organization]: https://github.com/jekyll
+**ALL POWER TO ALL THE PEOPLE!**
