@@ -22,8 +22,6 @@ title: Northwest Indiana Tool Library
 email: nwitoollibrary@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Our mission is to build a community dedicated to sharing tools & skills with one another.
-  We aim to provide equitable access to tools, equipment, and knowledge, thereby
-  encouraging and facilitating sharing, learning, and creating as a community.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.nwitoollibrary.org" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
