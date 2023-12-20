@@ -5,7 +5,7 @@ title:  Fix-It Fair
 date:   2024-01-27
 show: true
 ---
-- Time: 10am-noon
+- Time: 10am-1pm
 
 - Location: [Valparaiso Public Library](https://www.google.com/maps/place/Valparaiso+Public+Library/@41.4689663,-87.0619416,17z/data=!3m1!4b1!4m6!3m5!1s0x88119a098702e701:0x8b18e94f4015408c!8m2!3d41.4689663!4d-87.0593667!16s%2Fg%2F1vs5x9zz?entry=ttu), 103 Jefferson St, Valparaiso, IN 46383
 
