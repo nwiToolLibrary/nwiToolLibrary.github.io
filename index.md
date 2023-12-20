@@ -4,7 +4,7 @@
 
 layout: home
 title: Home
-list_title: Events
+list_title: Upcoming Events
 ---
 {% include br.html %}
 # **Under Construction**
