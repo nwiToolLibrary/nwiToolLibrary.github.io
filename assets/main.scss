@@ -1,16 +1,131 @@
 ---
 ---
-
 @import "minima";
 
+//color variables
+$text: #0f1f35;
+$background: #ffffff;
+
+$a: #416788;
+$aHovered: #81d2c7;
+$eventsA: #4a5e81;
+$eventsAHovered: #416788;
+
+$siteHeaderBackground: #0f1f35;
+
+$postListItem: #dadce7;
+$postListItemHovered: #b5bad0;
+
+$siteTitle: white;
+
+$pageLink: white;
+$pageLinkHovered: #0f1f35;
+$pageLinkBackgroundHovered: white;
+
+//fonts
+@font-face {
+	font-family: mono;
+	src: url(/assets/fonts/MonospaceRegular-6ZWg.ttf)
+}
+
+a, a:visited {
+	color: $a;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: $aHovered;
+	text-decoration: none;
+}
+
+body {
+	color: $text;
+	background-color: $background;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.home-logo {
+	height: 33vh;
+	min-height: 100px;
+	max-height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-logo {
+	width: 2em;
+	display: inline;
+	margin-top: auto;
+	margin-bottom: auto;
+	align: left;
+}
+
+.site-title {
+	font-family: mono, monospace;
+	font-size: 1.5em;
+
+	&:link,&:visited,&:hover,&:active {
+		color: $siteTitle;
+	}
+}
+
+.post-list-heading {
+	font-weight: bold;
+}
+
 .post-list-item {
-	background-color: #f0f0f0;
+	background-color: $postListItem;
 	padding: 20px;
-	border-radius: 20px;
+	border-radius: 0px;
 	cursor: pointer;
 }
 
 .post-list-item:hover {
-	background-color: #d0d0d0;
+	background-color: $postListItemHovered;
 	box-shadow: 2px 4px #505050;
+}
+
+.site-header {
+	background-color: $siteHeaderBackground;
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.wrapper-header {
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+.page-link {
+	padding: 10px 15px 10px 15px;
+	color: $pageLink;
+
+	&:link {
+		color: white;
+	}
+	&:visited {
+		color: white;
+	}
+	&:hover {
+		color: $pageLinkHovered;
+		background-color: $pageLinkBackgroundHovered;
+	}
+	&:active {
+		color: white;
+	}
+}
+
+.page-link:hover {
+	color: $pageLinkHovered;
+	background-color: $pageLinkBackgroundHovered;
 }
