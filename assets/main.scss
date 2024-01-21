@@ -134,5 +134,8 @@ body {
 @media only screen and (max-width: 960px) {
 	.page-link {
 		color: $pageLinkMobile;
+		&:link,&:visited,&:hover,&:active {
+			color: $pageLinkMobile;
+		}
 	}
 }
