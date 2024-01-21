@@ -131,9 +131,10 @@ body {
 	background-color: $pageLinkBackgroundHovered;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 600px) {
 	.page-link {
 		color: $pageLinkMobile;
+//		background-color: $pageLink;
 		&:link,&:visited,&:hover,&:active {
 			color: $pageLinkMobile;
 		}
