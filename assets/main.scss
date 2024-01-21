@@ -23,10 +23,10 @@ $pageLinkHovered: #0f1f35;
 $pageLinkBackgroundHovered: white;
 
 //fonts
-//@font-face {
-//	font-family: mono;
-//	src: url(/assets/fonts/MonospaceRegular-6ZWg.ttf)
-//}
+@font-face {
+	font-family: mono;
+	src: url(assets/fonts/MonospaceRegular-6ZWg.ttf)
+}
 
 a, a:visited {
 	color: $a;
