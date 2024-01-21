@@ -3,4 +3,4 @@ layout: page
 title: Governance
 permalink: /about/governance
 ---
-Governance Info here...
+Governance info to be added here. Check back soon for more info!

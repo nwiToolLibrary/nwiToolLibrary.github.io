@@ -11,4 +11,7 @@ Contact us at [nwitoollibrary@gmail.com](mailto:nwitoollibrary@gmail.com)
 
 **ALL POWER TO ALL THE PEOPLE!**
 
-For information on our governance practices, see our [Governance](/about/governance) page.
+{% include br.html %}
+{% include br.html %}
+
+We are currently developing our governance practices. Keep an eye on our [Governance](/about/governance) page for updates, or contact us directly.
