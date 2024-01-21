@@ -21,6 +21,7 @@ $siteTitle: white;
 $pageLink: white;
 $pageLinkHovered: #0f1f35;
 $pageLinkBackgroundHovered: white;
+$pageLinkMobile: #0f1f35;
 
 //fonts
 @font-face {
@@ -111,21 +112,27 @@ body {
 	color: $pageLink;
 
 	&:link {
-		color: white;
+		color: $pageLink;
 	}
 	&:visited {
-		color: white;
+		color: $pageLink;
 	}
 	&:hover {
 		color: $pageLinkHovered;
 		background-color: $pageLinkBackgroundHovered;
 	}
 	&:active {
-		color: white;
+		color: $pageLink;
 	}
 }
 
 .page-link:hover {
 	color: $pageLinkHovered;
 	background-color: $pageLinkBackgroundHovered;
+}
+
+@media only screen and (max-width: 960px) {
+	.page-link {
+		color: $pageLinkMobile;
+	}
 }
